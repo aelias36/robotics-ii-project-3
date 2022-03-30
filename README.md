@@ -1,1 +1,3 @@
 # robotics-ii-project-3
+
+A formation control algorithm was designed and implemented in order to simultaneously move 5 robots as a rigid body. The robots are controlled to stay fixed in a moving reference frame, and this reference frame can be controlled with keyboard input or with a pre-planned path. Path planning was done to navigate the robots through a room, and path following was implemented so the robots could successfully navigate through the room while avoiding colliding with obstacles or themselves. A follow-the-leader algorithm was designed so that only one robot needed to know the location of the reference frame. All of this was done using a Kalman filter to estimate the robot states under state and sensor noise.
